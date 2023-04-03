@@ -10,7 +10,7 @@ import java.util.List;
 @Repository
 public interface BikerRepository extends JpaRepository <Biker, Integer> {
 
-//    many of them repaet written in many ways of practise
+//    many of them repear, written in many ways to practise
 
     List<Biker> findByFirstName(String firstName);
     List<Biker> findTop300ByOrderByTime();
